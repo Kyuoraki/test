@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frame size="500,150">
+    <panel constraints="BorderLayout.NORTH">
+        <button id="update" text="update"/>
+        <label font="Georgia-BOLD-16"  text="select russian city"/>
+
+        <panel constraints="BorderLayout.CENTER">
+            <textfield id="city" Text="Orenburg"/>
+        </panel>
+    </panel>
+    <panel constraints="BorderLayout.CENTER">
+
+        <button id="quit" text="Quit"/>
+
+
+
+        <label font="Georgia-BOLD-16"  text="temp"/>
+        <label font="Georgia-BOLD-16"  text="humidity"/>
+        <label font="Georgia-BOLD-16"  text="pressure"/>
+        <panel constraints="BorderLayout.SOUTH">
+
+            <label font="Georgia-BOLD-16" id="temp" />
+            <label font="Georgia-BOLD-16" id="hum"/>
+            <label font="Georgia-BOLD-16" id="pres"/>
+        </panel>
+    </panel>
+
+</frame>
